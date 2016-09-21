@@ -1,0 +1,157 @@
+		body{
+			margin: 0px;
+			color:black;
+			font-family: sans-serif;
+			background-color: #f5f7f8;	
+		}
+		#bodyWrapper{
+			min-height: 500px;
+		}
+		#headerWrapper{
+			background-color: #2a2d33;
+			min-height: 60px;
+		}
+		#headerWrapper label{
+			color: #2d87cf;
+			font-size: 25px;
+		}
+
+		#headerWrapper .headerNoteList{
+			padding-left:100px;
+		}
+
+		#headerContent{
+			padding-top:6px;
+		}
+		#headerWrapper .headerName {
+			padding-left:150px;
+			font-variant: small-caps;
+			font-size: 13px;
+			color:#FFFFFF;
+			letter-spacing: 1px;
+		}
+
+		#addNote, #displayNote{
+			min-height: 230px;
+			font-family: cursive;			
+			padding: 10px 20px;
+		
+		}
+
+		#addNote{
+			margin: 5px 20px 0px 20px;
+			background-color:#FFC;
+			box-shadow: 1px 1px 15px;
+		}
+
+		#addNoteDivCollapse, #listViewHeader{
+			border-bottom: thin;
+			border-bottom-style:  solid;
+			border-bottom-color : #7c8791;
+		}
+		#addNoteDivContent{
+			margin-top: 5px;
+		}
+	
+		.lcol, .rcol{
+			margin-top:5px;
+			padding-right: 10px;
+		}
+
+		.lcol{
+			float:left;
+			width: 30%;
+			text-align: right;		
+		}
+
+		.btnCol{
+			padding-right: 10px;
+			width: 50%;
+			text-align: right;			
+		}
+
+		#txtMsg{
+			resize:none;
+		}
+
+		#btnAddNote, #btnClear{
+			border: thin solid #DCC76A;
+			padding:5px;
+			min-width: 20px;
+			background-color: #FFC;
+			font-family: cursive;
+			font-size: 12px;
+			cursor: pointer;
+			box-shadow: 0px 1px 5px;
+		}
+
+		.btnDelete{
+			border: thin solid #8652DC;
+			padding:5px;
+			min-width: 20px;
+			background-color: #CDC2FE;
+			font-family: cursive;
+			font-size: 12px;
+			cursor: pointer;
+			margin-left: 15px;
+			box-shadow: 0px 1px 5px;
+			margin-bottom:10px;
+		}
+
+		.btnblueDelete{
+			border: thin solid #1988d0;
+			min-width: 20px;
+			background-color: #C9E7F7;
+			font-family: cursive;
+			font-size: 12px;
+			cursor: pointer;
+			box-shadow: 0px 1px 5px;
+		}
+
+		#listView ,#DetailView{
+			box-shadow: 1px 5px 20px;
+			min-height: 240px;
+			max-height: 240px;	
+			float:left;
+			padding: 2px;
+		}		
+
+		#listView{
+			min-width: 40%;
+			max-width: 40%;
+			background-color: #C9E7F7;
+			font-size: small;
+		}
+
+		#listViewHeader{
+			padding:5px;
+		}
+
+		.DetailViewContent{
+			padding:15px;
+			font-size: small;
+		}
+
+		#DetailView{
+			overflow-y : auto;
+			word-wrap:break-word;
+			min-width: 59%;
+			max-width: 59%;
+			background-color: #CDC2FE;
+			margin-left: 4px;
+		}
+		.viewTable th, .viewTable td{
+			font-size: small;
+			text-align: center;
+			border: thin solid grey;
+			width: 50%;
+		}
+
+		#listViewWrapper{
+			overflow-y : auto;
+			max-height: 210px;
+			min-height: 210px;
+		}
+		table{
+			border-collapse: collapse;
+		}

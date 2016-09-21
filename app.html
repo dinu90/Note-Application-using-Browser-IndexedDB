@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Note List</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+	<script type="text/javascript" src="dbscript.js"></script>
+	<link rel="stylesheet" type="text/css" href="note.css">
+</head>
+<body>
+	<div id="bodyWrapper">
+		<div id="headerWrapper">
+			<div id="headerContent">
+				<label class="headerNoteList">Note List</label>
+				<label>Application</label><br>
+				<label class="headerName">ITMD565 - Dinesh Ganesan </label>
+			</div>
+		</div>
+		<div id="addNote">
+			<div id="addNoteDivCollapse">
+				<label> + Add Note</label>
+			</div>
+			<div id="addNoteDivContent">
+				<div>
+					<div class="lcol">
+						<label>Name  </label>
+					</div>
+					<div class="rcol">
+						<input id="txtName" type=text />
+					</div>
+				</div>
+				<div>
+					<div class="lcol">
+						<label>Subject  </label>
+					</div>
+					<div class="rcol">
+						<input id="txtSubject" type=text />
+					</div>
+				</div>
+				<div>
+					<div class="lcol">
+						<label>Message  </label>
+					</div>
+					<div class="rcol">
+						<textarea id="txtMsg" rows="7" cols="80"></textarea>
+					</div>
+				</div>
+				<div>
+					<div class="btnCol">
+						<button id="btnAddNote">Add Note</button>							
+						<button id="btnClear">Clear Note</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="displayNote">
+			<div id="listView">	
+				<div id="listViewHeader"></div>
+				<div id="listViewWrapper"></div>
+			</div>
+			<div id="DetailView">
+			</div>
+		</div>
+	</div>
+	<!--<div>
+		<input id="text-in" type="text"></input>
+		<button id="add-btn">Add</button>
+	</div>
+	<div id="list-wrapper"></div>
+	<div id="detail"></div>
+-->
+</body>
+</html>
